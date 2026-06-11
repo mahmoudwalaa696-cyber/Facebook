@@ -3,7 +3,7 @@ import { PiChatCenteredTextThin } from "react-icons/pi";
 
 const RightSide = () => {
   return (
-    <div className="hidden md:flex flex-col w-[300px] h-full fixed right-0 pl-2 text-white">
+   <div className="hidden md:flex flex-col w-[300px] h-full fixed right-0 pl-2 text-white">
 
 <h2 className="text-xl font-bold text-gray-400 pl-3">Birthdays</h2>
 

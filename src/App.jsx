@@ -6,19 +6,21 @@ import RightSide from "./componants/RightSide"
 
 const App = () => {
   return (
-    <div className=" bg-gray-950"> 
-     <NavBar/>
-  <div className="pt-14 md:pt-20 flex justify-between">
-  <LeftSide />
+    <div className="bg-gray-950 overflow-x-hidden">
+      <NavBar />
 
-  <div className="md:ml-[400px] flex-1 md:px-4">
-    <Center />
-  </div>
+      <div className="pt-14 md:pt-20 flex justify-between">
+        <LeftSide />
 
-  <RightSide />
-</div>
-     </div>
-  )
-}
+        {/* Center */}
+        <div className="flex-1 w-full md:max-w-2xl mx-auto px-2">
+          <Center />
+        </div>
 
-export default App
+        <RightSide className="pt-14 md:pt-20"/>
+      </div>
+    </div>
+  );
+};
+
+export default App;
