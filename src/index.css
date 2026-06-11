@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+.leftside-scroll {
+  overflow-y: auto;
+}
+
+/* شكل الاسكرول */
+.leftside-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* الخلفية */
+.leftside-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* الاسكرول نفسه يكون مخفي */
+.leftside-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* أول ما الماوس يدخل أي مكان في الكومبوننت يظهر */
+.leftside-scroll:hover::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
