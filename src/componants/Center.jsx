@@ -36,7 +36,7 @@ const Center = () => {
 </div>
 
 {/* part story */}
-<div className="my-3 flex gap-2 overflow-x-auto pb-2">
+<div className="my-3 flex gap-2 overflow-x-auto pb-2 ">
 
 <div className="w-36 h-48 bg-gray-900 rounded-md flex-shrink-0">
   <div className="relative">
@@ -83,7 +83,7 @@ const Center = () => {
 </div>
 
 {/* story 4 */}
-<div className="hidden md:flex w-36 h-48 rounded-md relative overflow-hidden flex-shrink-0">
+<div className="w-36 h-48 rounded-md relative overflow-hidden flex-shrink-0">
   <img src={img5} className="w-full h-48 rounded-md object-cover" />
 
   <div className="absolute top-2 left-2 bg-blue-500 p-1 rounded-full">
